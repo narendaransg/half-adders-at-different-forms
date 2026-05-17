@@ -188,16 +188,6 @@ The testbench:
 
 ---
 
-# Simulation Environment
-
-| Tool | Usage |
-|------|------|
-| Synopsys VCS | Compilation and Simulation |
-| EDA Playground | Online Verification |
-| Verilog/SystemVerilog | HDL Design |
-
----
-
 # Learning Objectives
 
 This repository helps understand:
@@ -223,41 +213,6 @@ This repository helps understand:
 - Simulation and Verification
 
 ---
-
-# How to Simulate
-
-## Example Compilation (VCS)
-
-### Dataflow
-
-```bash
-vcs design_dataflow.v tb.sv
-./simv
-```
-
-### Behavioral
-
-```bash
-vcs design_behavioral.v tb.sv
-./simv
-```
-
-### Gate-Level
-
-```bash
-vcs design_gate.v tb.sv
-./simv
-```
-
-### Switch-Level
-
-```bash
-vcs switch_level/*.v tb.sv
-./simv
-```
-
----
-
 # Future Improvements
 
 Possible future extensions:
